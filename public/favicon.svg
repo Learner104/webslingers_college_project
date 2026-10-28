@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <radialGradient id="reactorGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#56D8FF" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#56D8FF" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#56D8FF" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="starkTrim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4349" />
+      <stop offset="100%" stop-color="#B0161A" />
+    </linearGradient>
+  </defs>
+  <!-- Background Disc -->
+  <circle cx="60" cy="60" r="56" fill="#080A0F" stroke="#1F2A3D" stroke-width="2"/>
+  <!-- Ambient Core Glow -->
+  <circle cx="60" cy="60" r="42" fill="url(#reactorGlow)" />
+  <!-- Outer Segmented Ring -->
+  <circle cx="60" cy="60" r="48" stroke="#56D8FF" stroke-width="2" stroke-dasharray="14 8 26 8" opacity="0.75" />
+  <circle cx="60" cy="60" r="52" stroke="#E62429" stroke-width="1.5" stroke-dasharray="8 32 8 32" opacity="0.8" />
+  <!-- Inner Segmented Collar -->
+  <circle cx="60" cy="60" r="32" stroke="#56D8FF" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.6" />
+  <!-- Tactical Crosshairs -->
+  <line x1="60" y1="4" x2="60" y2="16" stroke="#56D8FF" stroke-width="2" />
+  <line x1="60" y1="104" x2="60" y2="116" stroke="#56D8FF" stroke-width="2" />
+  <line x1="4" y1="60" x2="16" y2="60" stroke="#56D8FF" stroke-width="2" />
+  <line x1="104" y1="60" x2="116" y2="60" stroke="#56D8FF" stroke-width="2" />
+  <!-- Central Original Geometric Insignia (Initiative Apex / Reactor Arrow) -->
+  <polygon points="60,22 84,78 69,78 60,54 51,78 36,78" fill="#F4F6FA" />
+  <polygon points="60,40 73,72 60,63 47,72" fill="#56D8FF" opacity="0.85" />
+  <!-- Crimson Reactor Core Accent Bar -->
+  <polygon points="38,62 82,62 78,69 42,69" fill="url(#starkTrim)" />
+  <!-- Micro Core Center -->
+  <circle cx="60" cy="60" r="4" fill="#FFFFFF" />
+  <circle cx="60" cy="60" r="2" fill="#56D8FF" />
+</svg>
